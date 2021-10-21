@@ -16,7 +16,12 @@
 
 @import "bulma";
 
-.container {
+.hero-body {
+    padding: 0;
+}
+
+.container,
+.title {
     height: 100px;
     margin-left: 50px;
     line-height: 100px;
