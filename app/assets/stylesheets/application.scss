@@ -43,3 +43,37 @@ input[type="submit"] {
     border: none;
     border-radius: 10px;
 }
+
+.notification:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.colums.is-multiline {
+    display: flex;
+}
+
+.colum.is-3 {
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+
+.user-title {
+    font-size: 25px;
+    line-height: normal;
+}
+
+a {
+    color: #4a4a4a;
+}
+
+.content,
+.is-size-4 {
+    line-height: normal;
+}
+
+.iimage.is-128x128 {
+    width: 100%;
+    hight: 100%;
+    border-radius: 50%;
+}
+
