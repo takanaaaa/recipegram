@@ -1,5 +1,5 @@
 <section class="hero is-info">
-  <div class="hero body">
+  <div class="hero-body">
     <div class="container">
       <h class="title">
         新規登録画面
@@ -10,7 +10,7 @@
 
 <sectoin class="section">
   <div class="containers">
-    <div class="colums is-centered">
+    <div class="columns is-centered">
       <div class="colums is-5">
         <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
         <%= render "devise/shared/error_messages", resource: resource %>
@@ -60,7 +60,7 @@
         </div>
       
         <div class="actions">
-          <%= f.submit "Sign up" %>
+          <%= f.submit "Sign up", class: "button is-success" %>
         </div>
       <% end %>
       
