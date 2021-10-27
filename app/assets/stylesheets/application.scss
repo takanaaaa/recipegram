@@ -16,64 +16,22 @@
 
 @import "bulma";
 
-.hero-body {
-    padding: 0;
-}
-
-.container,
-.title {
-    height: 100px;
-    margin-left: 50px;
-    line-height: 100px;
-}
-
-.colums.is-centered {
-    display: flex;
-    justify-content: center;
-}
-
-.colums.is-5 {
-    width: 500px;
-}
-
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #39C08F;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-}
-
 .notification:not(:last-child) {
     margin-bottom: 0;
-}
-
-.colums.is-multiline {
-    display: flex;
-}
-
-.colum.is-3 {
-    margin-right: 20px;
-    margin-bottom: 150px;
-}
-
-.user-title {
-    font-size: 25px;
-    line-height: normal;
 }
 
 a {
     color: #4a4a4a;
 }
 
-.content,
-.is-size-4 {
-    line-height: normal;
+.profile_image{
+    border-radius: 50%;
 }
 
-.iimage.is-128x128 {
-    width: 100%;
-    hight: 100%;
-    border-radius: 50%;
+.main-image {
+    height: 940px;
+    background-image: url(83719411.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
